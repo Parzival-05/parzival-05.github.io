@@ -707,6 +707,8 @@ section {
   text-align: center;
   overflow: hidden;
   border-radius: 5px;
+  width: 308px;
+  height: 308px;
 }
 
 .h_gallery_item .g_img_item:before {
@@ -723,6 +725,7 @@ section {
   transition: all 300ms ease;
 }
 
+
 .h_gallery_item .g_img_item .light {
   position: absolute;
   left: 0px;
@@ -732,7 +735,6 @@ section {
   height: 100%;
   text-align: center;
   opacity: 0;
-  /* display: block; */
 }
 
 .h_gallery_item .g_img_item .light img {
