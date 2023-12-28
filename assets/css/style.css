@@ -729,8 +729,19 @@ section {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
+  height: 100%;
   text-align: center;
   opacity: 0;
+  /* display: block; */
+}
+
+.h_gallery_item .g_img_item .light img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .h_gallery_item .g_item_text {
